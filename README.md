@@ -11,7 +11,7 @@ In order to run it locally, you will need:
 - AWS CLI
 
 # Usage
-To create the lambda layer automatically, all you need to do is execute create-pandas-lambda.layer.sh file:
+To create the lambda layer automatically, all you need to do is execute create-pandas-lambda-layer.sh file:
 ```bash
 ./create-pandas-lambda-layer.sh
 ```

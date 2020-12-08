@@ -23,8 +23,8 @@ Below are the commands executed by the script:
 ```bash
 mkdir pandas-lambda-layer
 cd pandas-lambda-layer
-virtualenv v-env
-source ./v-env/bin/activate
+virtualenv venv
+source ./venv/bin/activate
 pip install pandas
 deactivate
 ```
@@ -33,7 +33,7 @@ deactivate
 ```bash
 mkdir python
 cd python
-cp -r ../v-env/lib/python3.8/site-packages/* .
+cp -r ../venv/lib/python3.8/site-packages/* .
 cd ..
 zip -r panda_layer.zip python
 ```
